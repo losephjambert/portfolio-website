@@ -3163,8 +3163,8 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
-		background-position: top left,						center center;
+		background-image: url("images/overlay.png"), url("https://media.giphy.com/media/kZKA1wsWnBzr7dJ6Ss/giphy.gif");
+		background-position: top left,						left -150px;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
 		color: #fff;
@@ -3303,8 +3303,8 @@
 /* CTA */
 
 	#cta {
-		background: #e89980;
-		color: #f9e6df;
+		background: papayawhip;
+		color: black;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
 	}
@@ -3324,8 +3324,8 @@
 		#cta input[type="button"],
 		#cta .button {
 			box-shadow: none;
-			background: #fff;
-			color: #e89980;
+			background: black;
+			color: papayawhip;
 		}
 
 		#cta input[type="text"],
@@ -3333,9 +3333,10 @@
 		#cta input[type="email"],
 		#cta select,
 		#cta textarea {
-			color: #ffffff;
-			background: rgba(255, 255, 255, 0.15);
+			color: black;
+			background:papayawhip;
 			border: 0;
+			box-shadow: inset 0 0 0 2px #fff;
 		}
 
 			#cta input[type="text"]:focus,
@@ -3347,23 +3348,23 @@
 			}
 
 		#cta ::-webkit-input-placeholder {
-			color: rgba(255, 255, 255, 0.75) !important;
+			color: black !important;
 		}
 
 		#cta :-moz-placeholder {
-			color: rgba(255, 255, 255, 0.75) !important;
+			color: black !important;
 		}
 
 		#cta ::-moz-placeholder {
-			color: rgba(255, 255, 255, 0.75) !important;
+			color: black !important;
 		}
 
 		#cta :-ms-input-placeholder {
-			color: rgba(255, 255, 255, 0.75) !important;
+			color: black !important;
 		}
 
 		#cta .formerize-placeholder {
-			color: rgba(255, 255, 255, 0.75) !important;
+			color: black !important;
 		}
 
 /* Wide */
